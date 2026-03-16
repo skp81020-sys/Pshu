@@ -7,5 +7,4 @@ RUN apt-get update && \
 RUN pip install --no-cache-dir --upgrade pip && \
     pip install --no-cache-dir -r master.txt
 
-RUN python serverV1.py
 CMD ["python", "./main.py"]
